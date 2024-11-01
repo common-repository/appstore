@@ -1,0 +1,170 @@
+/* @override 
+	http://www.touchtalk.at/wp-content/plugins/AppStore/css/AppStore.css
+	http://www.touchtalk.dreamhosters.com/tttest/wp-content/plugins/appstore/css/AppStore.css
+*/
+
+span.apps {  
+font-size: 12px;
+line-height: 1;
+}
+
+span.apps a{
+text-decoration: none;
+}
+
+span.apps a.Bild{ 
+font-size: 100%; 
+font-weight:bold;
+text-decoration: none;
+}
+
+span.apps img.Image{
+	margin-right: 5px;
+	margin-left: 5px; 
+	margin-top: 2px; 
+	margin-bottom: 0px;
+	width: 57px;
+	height: 57px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-color: silver;
+	float: left;
+	border-style: hidden;
+}
+
+span.apps span.Titel{
+font-size: 100%;
+font-weight: bold;
+}
+
+span.apps span.Preis{
+font-size: 80%;
+}
+
+span.apps span.Hersteller{
+font-size: 80%;
+}
+
+span.apps span.Freigabe{
+font-size: 80%;
+}
+
+span.apps span.Download{
+font-size: 80%;
+font-weight: bold;
+}
+
+span.apps span.Rating{
+font-size: 80%;
+}
+
+span.apps a.DownloadLink{
+font-size: 100%;
+}
+
+span.apps img.ratingStarsImg {
+	position: absolute;
+	border: 0 !important;
+	margin: 0 !important;
+	margin-top: 0px !important;
+	margin-left: 5px !important;
+	padding: 0 !important;
+}
+
+.appImageContainer {
+	margin: 15px auto;
+	margin: 15px auto;
+	padding: 8px;
+	/*background-color: #363636;*/
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	behavior:url(border-radius.htc);	
+	/*Shadow*/
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;	
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#363636'); */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#363636)); */
+	/*background: -moz-linear-gradient(top,  #999,  #363636); */ 	
+}
+
+.appSliderGallery {
+	height: auto;
+	/*width: 90%;*/
+	overflow: auto;
+	/*border: 0px solid #ccc;*/
+	margin: 0em;
+	/*background-color: #363636;*/
+	/*-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	behavior:url(border-radius.htc);*/
+}
+
+.appSliderGallery ul {
+	list-style: none;
+	white-space:nowrap;
+	margin: 0;
+	padding: 0;
+}
+
+.appSliderGallery li {
+	display: inline;
+	margin: 0;
+	padding: 0 3px 0 3px;
+}
+
+/*.sliderGallery li img {
+	height: 90%;
+	border: 0px solid #ccc;
+}*/
+
+.appSliderGallery li img {
+	max-height: 295px !important; 
+	/*max-height: 90%;*/
+	width: auto !important;
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: inline !important;
+}
+
+.appBundle{
+	border: 1px solid #878787;
+	width: auto;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	behavior:url(border-radius.htc);
+	padding:8px;
+}
+
+div.appStore-sidebox {
+width: 200px;
+padding: 10px;
+float: right;
+border: 1px solid black;
+background: #CCC;
+margin-top: 40px;
+}
+
+div.appStore-sidebox div{
+text-align: center;
+}
+
+.appStars{
+background-image: url(../images/stars.png);
+position: absolute;
+}
+.sprite-stars05{ background-position: 0 0; width: 65px; height: 11px; } 
+.sprite-stars0{ background-position: 0 -22px; width: 65px; height: 11px; } 
+.sprite-stars15{ background-position: 0 -44px; width: 65px; height: 11px; } 
+.sprite-stars1{ background-position: 0 -66px; width: 65px; height: 11px; } 
+.sprite-stars25{ background-position: 0 -88px; width: 65px; height: 11px; } 
+.sprite-stars2{ background-position: 0 -110px; width: 65px; height: 11px; } 
+.sprite-stars35{ background-position: 0 -132px; width: 65px; height: 11px; } 
+.sprite-stars3{ background-position: 0 -154px; width: 65px; height: 11px; } 
+.sprite-stars45{ background-position: 0 -176px; width: 65px; height: 11px; } 
+.sprite-stars4{ background-position: 0 -198px; width: 65px; height: 11px; } 
+.sprite-stars5{ background-position: 0 -220px; width: 65px; height: 11px; } 
+
+

@@ -1,0 +1,382 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AppStore Plugin\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/appstore\n"
+"POT-Creation-Date: 2011-05-24 08:10:32+00:00\n"
+"PO-Revision-Date: 2011-05-24 10:16+0100\n"
+"Last-Translator: Steeeve <steve.f@gmx.at>\n"
+"Language-Team: Emily <Emily>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+
+#: AppStore.php:98
+#: AppStore.php:206
+#: AppStore.php:369
+msgid "Kostenlos"
+msgstr "免费"
+
+#: AppStore.php:248
+msgid "Developer:"
+msgstr "开发商"
+
+#: AppStore.php:249
+msgid "Price:"
+msgstr "价格"
+
+#: AppStore.php:250
+msgid "Rated:"
+msgstr "评分"
+
+#: AppStore.php:251
+msgid "Rating:"
+msgstr "撰写评价"
+
+#: AppStore.php:494
+#: AppStore.php:498
+msgid "Deutsch"
+msgstr "德语"
+
+#: AppStore.php:495
+msgid "Italienisch"
+msgstr "意大利"
+
+#: AppStore.php:496
+msgid "Polnisch"
+msgstr "波兰"
+
+#: AppStore.php:497
+msgid "Chinesisch"
+msgstr "中文"
+
+#: AppStore.php:499
+msgid "Englisch"
+msgstr "英文"
+
+#: AppStore.php:579
+msgid "Einstellungen f&uuml;r das AppStore-Plugin"
+msgstr "APPSTORE插件设置"
+
+#: AppStore.php:582
+msgid "Dieses Plugin l&auml;sst sich ganz einfach mit <code>[app 123456]</code> integrieren."
+msgstr "如需插入Appstore信息只需轻松输入  <code>[app 123456]</code>。"
+
+#: AppStore.php:587
+msgid "iTunes-Store Land:"
+msgstr "iTunes商城国家:"
+
+#: AppStore.php:602
+msgid "Sprache:"
+msgstr "语言"
+
+#: AppStore.php:617
+msgid "Cachingzeit Bilder (in h):"
+msgstr "图片缓存时间 (单位 小时):"
+
+#: AppStore.php:623
+msgid "Cachingzeit Daten (in h):"
+msgstr "数据缓存时间 (单位 小时):"
+
+#: AppStore.php:627
+msgid "Downl.Link Bezeichung:"
+msgstr "下载链接名称"
+
+#: AppStore.php:631
+msgid "Tradedoubler ID:"
+msgstr "Tradedoubler ID:"
+
+#: AppStore.php:633
+msgid "Noch kein"
+msgstr "不是"
+
+#: AppStore.php:637
+#: AppStore.php:693
+msgid "Custom Affiliate URL:"
+msgstr "自定义 Affiliate 链接:"
+
+#: AppStore.php:642
+msgid "Bewertungen Aktivieren:"
+msgstr "激活描述："
+
+#: AppStore.php:646
+msgid "Statistiken Aktivieren:"
+msgstr "激活数据："
+
+#: AppStore.php:651
+msgid "Style (CSS):"
+msgstr "样式表 (CSS):"
+
+#: AppStore.php:661
+msgid "Verwendung und Beispiel"
+msgstr "使用案例"
+
+#: AppStore.php:662
+msgid ""
+"Die ID der App bekommst du aus dem iTunes-Store. Eimfach den Link der gew&uuml;nschten App kopieren und die \n"
+"\t\t\tNummer (fast) am Ende suchen: "
+msgstr "你能在iTunes商城中找到应用的ID，它位于Appstore商城链接的尾部。"
+
+#: AppStore.php:664
+msgid "Alternativ kannst du auch unter http://appsuche.touchtalk.at die gewünschte App suchen. Die ID steht dann 'versteckt' in wei/szlig; hinter 'Beschreibung'."
+msgstr "当然，你也可以借助 http://appsuche.touchtalk.at. 这个网站去找寻应用的ID。你可以在描述栏后面看到一行隐藏的白色的文本。"
+
+#: AppStore.php:668
+msgid ""
+"sollte bei richtiger Konfiguration die Apple Remote App anzeigen. (einfach in einer Seite oder \n"
+"\t\t\tin einem Post einbauen)."
+msgstr "会显示苹果官方远程控制应用（如果配置正确）。"
+
+#: AppStore.php:670
+msgid "zeigt die Screenshots an."
+msgstr "显示截图。"
+
+#: AppStore.php:671
+msgid "zeigt die Infos und die Screenshots in einem Rahmen an."
+msgstr "在一个外框中显示应用信息与其截图。"
+
+#: AppStore.php:672
+msgid "Ein Video zur Konfiguration von Tradedoubler gibts "
+msgstr "你可以查看如何配置Tradedoubler的视频"
+
+#: AppStore.php:673
+msgid "hier (Youtube-Video)"
+msgstr "点击这里 (youtube视频)"
+
+#: AppStore.php:674
+msgid "Vielen Dank an Zettt von "
+msgstr "鸣谢 Zettt from "
+
+#: AppStore.php:678
+msgid "Info"
+msgstr "信息"
+
+#: AppStore.php:679
+msgid "Land"
+msgstr "国家"
+
+#: AppStore.php:680
+msgid ""
+"Das Land gibt an auf welchen Store die Suche durchgef&uuml;hrt wird. So k&ouml;nnen zB keine Apps angezeigt werden, \n"
+"\t\t\twelche sich nur im US Store befinden aber ein anderer Store eingestellt ist."
+msgstr "国家设定了数据获取的商城区域，选定外国家的Appstore商城数据将不可获取。"
+
+#: AppStore.php:683
+msgid "Sprache"
+msgstr "语言"
+
+#: AppStore.php:684
+msgid "Wenn die Sprache oder das iTunes Land umgestellt wird, sollte ggf. auch der Cache gel&ouml;scht werden, da sonst die Preise nicht korrekt sind."
+msgstr "如果你更改了地区或者是国家，缓存将会自动删除，或者出现错误代码(例如：错误的价格)。"
+
+#: AppStore.php:686
+msgid "Cachingzeiten"
+msgstr "缓存刷新时间"
+
+#: AppStore.php:687
+msgid ""
+"Die Cachingzeiten geben an, wie oft die Daten aktualisiert vom Server geladen werden - dies erh&ouml;ht die Performance und \n"
+"\t\t\tsollte eigentlich nicht ge&auml;ndert werden."
+msgstr "缓存刷新时间即从商城服务器获取数据的间隔时间。"
+
+#: AppStore.php:690
+msgid "Tradedoubler ID"
+msgstr "Tradedoubler ID"
+
+#: AppStore.php:691
+msgid "Damit Ihr auch ein wenig Geld damit verdienen k&ouml;nnt ;-)"
+msgstr "这样你可以赚点零花钱，:p"
+
+#: AppStore.php:694
+msgid ""
+"Wenn du bereits einen alternativen Affiliate Partner hast oder Tradedoubler nicht verwenden willst, \n"
+"\t\t\tkannst du hier eine Affiliate-URL deines Werbepartners eingeben. Setzte einfach {URL} dort ein, wo der AppStore-Link eingesetzt werden soll.<br />\n"
+"\t\t\tzB: http://click.linksynergy.com/fs-bin/stat?id=AAAAAAAA&offerid=100000&type=3&subid=0&tmpid=0006&RD_PARM1=<b>{URL}</b>&partnerId=99\n"
+"\t\t\t\n"
+"\t\t\t"
+msgstr ""
+"如果你使用的是其他的Affiliate提供商或者你不想使用Tradedoubler， \n"
+"\t\t\t你可以在此键入你的自定义Affiliate链接. 使用{URL}来代替你所想要置入的Appstore应用商城链接。<br />\n"
+"\t\t\t例如: http://click.linksynergy.com/fs-bin/stat?id=AAAAAAAA&offerid=100000&type=3&subid=0&tmpid=0006&RD_PARM1=<b>{URL}</b>&partnerId=99\n"
+"\t\t\t\n"
+"\t\t\t"
+
+#: AppStore.php:700
+msgid "Unterst&uuml;tzung"
+msgstr "赞助"
+
+#: AppStore.php:701
+msgid ""
+"Du wei&szlig;t ja, ein Entwickler ist prinzipiell arm. Ja, ja... traurig aber wahr. \n"
+"\t\t\tAus diesem Grund steht in jedem 10. Tradedoubler-Link unsere ID um die Entwicklung dieses \n"
+"\t\t\tPlugins und weiterer spannender Projekte zu unterst&uuml;tzen. Deshalb bitten wir dich, \n"
+"\t\t\tden betreffenden Code nicht manuell zu entfernen."
+msgstr "作为一个悲伤而不争的事实，众所周知代码电工们很难从他们的作品中获取经济收益。所以我们在这个插件中编写了一些代码，能够让我们在Tradedoubler-ID的帮助下从每十条应用商城的链接中赚取一丁点微不足道的零用钱。这点微薄的盈利实在是杯水车薪，所以请尽量别去修改这些代码。有了您的支持，我们才能够更快更好的完成插件的更新和维护以及开发。:-)"
+
+#: AppFunctions.php:594
+msgid "United States"
+msgstr "美国"
+
+#: AppFunctions.php:595
+msgid "France"
+msgstr "法国"
+
+#: AppFunctions.php:596
+msgid "Germany"
+msgstr "德国"
+
+#: AppFunctions.php:597
+msgid "United Kingdom"
+msgstr "英国"
+
+#: AppFunctions.php:598
+msgid "Austria"
+msgstr "奥地利"
+
+#: AppFunctions.php:599
+msgid "Belgium"
+msgstr "比利时"
+
+#: AppFunctions.php:600
+msgid "Finland"
+msgstr "芬兰"
+
+#: AppFunctions.php:601
+msgid "Greece"
+msgstr "希腊"
+
+#: AppFunctions.php:602
+msgid "Ireland"
+msgstr "爱尔兰"
+
+#: AppFunctions.php:603
+msgid "Italy"
+msgstr "意大利"
+
+#: AppFunctions.php:604
+msgid "Luxembourg"
+msgstr "卢森堡"
+
+#: AppFunctions.php:605
+msgid "Netherlands"
+msgstr "荷兰"
+
+#: AppFunctions.php:606
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: AppFunctions.php:607
+msgid "Spain"
+msgstr "西班牙"
+
+#: AppFunctions.php:608
+msgid "Canada"
+msgstr "加拿大"
+
+#: AppFunctions.php:609
+msgid "Sweden"
+msgstr "瑞典"
+
+#: AppFunctions.php:610
+msgid "Norway"
+msgstr "挪威"
+
+#: AppFunctions.php:611
+msgid "Denmark"
+msgstr "丹麦"
+
+#: AppFunctions.php:612
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: AppFunctions.php:613
+msgid "Australia"
+msgstr "澳大利亚"
+
+#: AppFunctions.php:614
+msgid "New Zealand"
+msgstr "新西兰"
+
+#: AppFunctions.php:615
+msgid "Japan"
+msgstr "日本"
+
+#: AppFunctions.php:616
+msgid "Polen"
+msgstr "波兰"
+
+#: AppFunctions.php:617
+msgid "China"
+msgstr "中国"
+
+#: widget.php:20
+msgid "Top 10 Apps"
+msgstr "榜首十位应用"
+
+#: widget.php:21
+msgid "free"
+msgstr "免费"
+
+#: widget.php:22
+msgid "10"
+msgstr "10"
+
+#: widget.php:144
+msgid "iPhone kostenlos"
+msgstr "iPhone 免费榜单"
+
+#: widget.php:145
+msgid "iPhone kostenpflichtig"
+msgstr "iPhone 付费榜单"
+
+#: widget.php:146
+msgid "iPhone umsatzstark"
+msgstr "iPhone 总排行榜"
+
+#: widget.php:147
+msgid "iPad kostenlos"
+msgstr "iPad 免费榜单"
+
+#: widget.php:148
+msgid "iPad kostenpflichtig"
+msgstr "iPad 付费榜单"
+
+#: widget.php:149
+msgid "iPad umsatzstark"
+msgstr "iPad 总排行榜"
+
+#: widget.php:150
+msgid "neue Apps"
+msgstr "最新应用"
+
+#: widget.php:151
+msgid "neue kostenlose Apps"
+msgstr "最新免费应用"
+
+#: widget.php:152
+msgid "neue kostenpflichtige Apps"
+msgstr "最新付费应用"
+
+#: widget.php:153
+msgid "Mac alle"
+msgstr "Mac 查看全部"
+
+#: widget.php:154
+msgid "Mac kostenlos"
+msgstr "Mac 免费榜单"
+
+#: widget.php:155
+msgid "Mac Umsatzstark"
+msgstr "Mac 总排行榜"
+
+#: widget.php:156
+msgid "Mac kostenpflichtig"
+msgstr "Mac 付费榜单"
+
+#: widget.php:199
+msgid "Konfiguration bei den Settings"
+msgstr "设置配置"
+

@@ -1,0 +1,380 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/appstore\n"
+"POT-Creation-Date: 2011-05-24 08:10:32+00:00\n"
+"PO-Revision-Date: 2011-05-24 10:11+0100\n"
+"Last-Translator: Steeeve <steve.f@gmx.at>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: AppStore.php:98
+#: AppStore.php:206
+#: AppStore.php:369
+msgid "Kostenlos"
+msgstr "free"
+
+#: AppStore.php:248
+msgid "Developer:"
+msgstr "Developer:"
+
+#: AppStore.php:249
+msgid "Price:"
+msgstr "Price:"
+
+#: AppStore.php:250
+msgid "Rated:"
+msgstr "Rated:"
+
+#: AppStore.php:251
+msgid "Rating:"
+msgstr "Rating:"
+
+#: AppStore.php:494
+#: AppStore.php:498
+msgid "Deutsch"
+msgstr "german"
+
+#: AppStore.php:495
+msgid "Italienisch"
+msgstr "italian"
+
+#: AppStore.php:496
+msgid "Polnisch"
+msgstr "polish"
+
+#: AppStore.php:497
+msgid "Chinesisch"
+msgstr "chinese"
+
+#: AppStore.php:499
+msgid "Englisch"
+msgstr "english"
+
+#: AppStore.php:579
+msgid "Einstellungen f&uuml;r das AppStore-Plugin"
+msgstr "Settings for the AppStore-Plugin"
+
+#: AppStore.php:582
+msgid "Dieses Plugin l&auml;sst sich ganz einfach mit <code>[app 123456]</code> integrieren."
+msgstr "You can easly integrate an Appstore link with  <code>[app 123456]</code>."
+
+#: AppStore.php:587
+msgid "iTunes-Store Land:"
+msgstr "iTunes-Store Country:"
+
+#: AppStore.php:602
+msgid "Sprache:"
+msgstr "Language"
+
+#: AppStore.php:617
+msgid "Cachingzeit Bilder (in h):"
+msgstr "Cachingtime images (in h):"
+
+#: AppStore.php:623
+msgid "Cachingzeit Daten (in h):"
+msgstr "Cahingtime Data (in h):"
+
+#: AppStore.php:627
+msgid "Downl.Link Bezeichung:"
+msgstr "Name of downl.link."
+
+#: AppStore.php:631
+msgid "Tradedoubler ID:"
+msgstr "Tradedoubler ID:"
+
+#: AppStore.php:633
+msgid "Noch kein"
+msgstr "Not a"
+
+#: AppStore.php:637
+#: AppStore.php:693
+msgid "Custom Affiliate URL:"
+msgstr "Custom Affiliate URL:"
+
+#: AppStore.php:642
+msgid "Bewertungen Aktivieren:"
+msgstr "Activate ratings:"
+
+#: AppStore.php:646
+msgid "Statistiken Aktivieren:"
+msgstr "Activate statistics:"
+
+#: AppStore.php:651
+msgid "Style (CSS):"
+msgstr "Style (CSS):"
+
+#: AppStore.php:661
+msgid "Verwendung und Beispiel"
+msgstr "Usage and Example"
+
+#: AppStore.php:662
+msgid ""
+"Die ID der App bekommst du aus dem iTunes-Store. Eimfach den Link der gew&uuml;nschten App kopieren und die \n"
+"\t\t\tNummer (fast) am Ende suchen: "
+msgstr "You can find this ID in iTunes-Store. Just find it in the AppStore link next to the end:"
+
+#: AppStore.php:664
+msgid "Alternativ kannst du auch unter http://appsuche.touchtalk.at die gewünschte App suchen. Die ID steht dann 'versteckt' in wei/szlig; hinter 'Beschreibung'."
+msgstr "Its also possible to find the id on http://appsuche.touchtalk.at. You can find the \"hidden\" as white Text right behind 'Berschreibung'."
+
+#: AppStore.php:668
+msgid ""
+"sollte bei richtiger Konfiguration die Apple Remote App anzeigen. (einfach in einer Seite oder \n"
+"\t\t\tin einem Post einbauen)."
+msgstr "should display the Apple Remote App (if the configuration ist correct)."
+
+#: AppStore.php:670
+msgid "zeigt die Screenshots an."
+msgstr "displays the screenshots."
+
+#: AppStore.php:671
+msgid "zeigt die Infos und die Screenshots in einem Rahmen an."
+msgstr "displays Information and  Screenshots in a frame."
+
+#: AppStore.php:672
+msgid "Ein Video zur Konfiguration von Tradedoubler gibts "
+msgstr "You can find a video how to configure Tradedoubler "
+
+#: AppStore.php:673
+msgid "hier (Youtube-Video)"
+msgstr "here (youtube-video)"
+
+#: AppStore.php:674
+msgid "Vielen Dank an Zettt von "
+msgstr "Many thanks to Zettt from "
+
+#: AppStore.php:678
+msgid "Info"
+msgstr "Info"
+
+#: AppStore.php:679
+msgid "Land"
+msgstr "Country"
+
+#: AppStore.php:680
+msgid ""
+"Das Land gibt an auf welchen Store die Suche durchgef&uuml;hrt wird. So k&ouml;nnen zB keine Apps angezeigt werden, \n"
+"\t\t\twelche sich nur im US Store befinden aber ein anderer Store eingestellt ist."
+msgstr "The country defines the store where the data will be fetched from. It's not possible to display apps from countries outside this store."
+
+#: AppStore.php:683
+msgid "Sprache"
+msgstr "Language"
+
+#: AppStore.php:684
+msgid "Wenn die Sprache oder das iTunes Land umgestellt wird, sollte ggf. auch der Cache gel&ouml;scht werden, da sonst die Preise nicht korrekt sind."
+msgstr "If you changed the language or the Country the cache should be deleted or maybe wrong data will be displayed (for Example: wrong price)."
+
+#: AppStore.php:686
+msgid "Cachingzeiten"
+msgstr "Cachingtimes"
+
+#: AppStore.php:687
+msgid ""
+"Die Cachingzeiten geben an, wie oft die Daten aktualisiert vom Server geladen werden - dies erh&ouml;ht die Performance und \n"
+"\t\t\tsollte eigentlich nicht ge&auml;ndert werden."
+msgstr "The cachingtime defines the interval data is fetched from the Server."
+
+#: AppStore.php:690
+msgid "Tradedoubler ID"
+msgstr "Tradedoubler ID"
+
+#: AppStore.php:691
+msgid "Damit Ihr auch ein wenig Geld damit verdienen k&ouml;nnt ;-)"
+msgstr "So you can earn a bit  money ;-)"
+
+#: AppStore.php:694
+msgid ""
+"Wenn du bereits einen alternativen Affiliate Partner hast oder Tradedoubler nicht verwenden willst, \n"
+"\t\t\tkannst du hier eine Affiliate-URL deines Werbepartners eingeben. Setzte einfach {URL} dort ein, wo der AppStore-Link eingesetzt werden soll.<br />\n"
+"\t\t\tzB: http://click.linksynergy.com/fs-bin/stat?id=AAAAAAAA&offerid=100000&type=3&subid=0&tmpid=0006&RD_PARM1=<b>{URL}</b>&partnerId=99\n"
+"\t\t\t\n"
+"\t\t\t"
+msgstr ""
+"If you are using an alternative affiliate or don't want to use Tradedoubler, \n"
+"\t\t\tyou can input the Affiliate-URL of your affiliate. Just input your URL with {URL} where the appstore-url should be insert.<br />\n"
+"\t\t\tfor example: http://click.linksynergy.com/fs-bin/stat?id=AAAAAAAA&offerid=100000&type=3&subid=0&tmpid=0006&RD_PARM1=<b>{URL}</b>&partnerId=99\n"
+"\t\t\t\n"
+"\t\t\t"
+
+#: AppStore.php:700
+msgid "Unterst&uuml;tzung"
+msgstr "Sponsorship"
+
+#: AppStore.php:701
+msgid ""
+"Du wei&szlig;t ja, ein Entwickler ist prinzipiell arm. Ja, ja... traurig aber wahr. \n"
+"\t\t\tAus diesem Grund steht in jedem 10. Tradedoubler-Link unsere ID um die Entwicklung dieses \n"
+"\t\t\tPlugins und weiterer spannender Projekte zu unterst&uuml;tzen. Deshalb bitten wir dich, \n"
+"\t\t\tden betreffenden Code nicht manuell zu entfernen."
+msgstr "It's no secret that most developers are having a hard time to benefit from their work financially. It's sad, but true. Hence, we have encoded a few lines into this Plugin, which will ensure that every 10th outgoing App Store link is wrapped into our Tradedoubler-ID. It's really just a few cents for you, so please refrain from changing this code manually. With your support, we will be able to update, develop and nurture this Plugin furthermore. :-)"
+
+#: AppFunctions.php:594
+msgid "United States"
+msgstr "United States"
+
+#: AppFunctions.php:595
+msgid "France"
+msgstr "France"
+
+#: AppFunctions.php:596
+msgid "Germany"
+msgstr "Germany"
+
+#: AppFunctions.php:597
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+#: AppFunctions.php:598
+msgid "Austria"
+msgstr "Austria"
+
+#: AppFunctions.php:599
+msgid "Belgium"
+msgstr "Belgium"
+
+#: AppFunctions.php:600
+msgid "Finland"
+msgstr "Finland"
+
+#: AppFunctions.php:601
+msgid "Greece"
+msgstr "Greece"
+
+#: AppFunctions.php:602
+msgid "Ireland"
+msgstr "Ireland"
+
+#: AppFunctions.php:603
+msgid "Italy"
+msgstr "Italy"
+
+#: AppFunctions.php:604
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: AppFunctions.php:605
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: AppFunctions.php:606
+msgid "Portugal"
+msgstr "Portugal"
+
+#: AppFunctions.php:607
+msgid "Spain"
+msgstr "Spain"
+
+#: AppFunctions.php:608
+msgid "Canada"
+msgstr "Canada"
+
+#: AppFunctions.php:609
+msgid "Sweden"
+msgstr "Sweden"
+
+#: AppFunctions.php:610
+msgid "Norway"
+msgstr "Norway"
+
+#: AppFunctions.php:611
+msgid "Denmark"
+msgstr "Denmark"
+
+#: AppFunctions.php:612
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: AppFunctions.php:613
+msgid "Australia"
+msgstr "Australia"
+
+#: AppFunctions.php:614
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: AppFunctions.php:615
+msgid "Japan"
+msgstr "Japan"
+
+#: AppFunctions.php:616
+msgid "Polen"
+msgstr "Poland"
+
+#: AppFunctions.php:617
+msgid "China"
+msgstr "China"
+
+#: widget.php:20
+msgid "Top 10 Apps"
+msgstr "Top 10 Apps"
+
+#: widget.php:21
+msgid "free"
+msgstr "free"
+
+#: widget.php:22
+msgid "10"
+msgstr "10"
+
+#: widget.php:144
+msgid "iPhone kostenlos"
+msgstr "iPhone top free"
+
+#: widget.php:145
+msgid "iPhone kostenpflichtig"
+msgstr "iPhone top paid"
+
+#: widget.php:146
+msgid "iPhone umsatzstark"
+msgstr "iPhone top grossing"
+
+#: widget.php:147
+msgid "iPad kostenlos"
+msgstr "iPad top free"
+
+#: widget.php:148
+msgid "iPad kostenpflichtig"
+msgstr "iPad top paid"
+
+#: widget.php:149
+msgid "iPad umsatzstark"
+msgstr "iPad top grossing"
+
+#: widget.php:150
+msgid "neue Apps"
+msgstr "new Apps"
+
+#: widget.php:151
+msgid "neue kostenlose Apps"
+msgstr "new free Apps"
+
+#: widget.php:152
+msgid "neue kostenpflichtige Apps"
+msgstr "new paid Apps"
+
+#: widget.php:153
+msgid "Mac alle"
+msgstr "Mac all"
+
+#: widget.php:154
+msgid "Mac kostenlos"
+msgstr "Mac top free"
+
+#: widget.php:155
+msgid "Mac Umsatzstark"
+msgstr "Mac top grossing"
+
+#: widget.php:156
+msgid "Mac kostenpflichtig"
+msgstr "Mac top Paid"
+
+#: widget.php:199
+msgid "Konfiguration bei den Settings"
+msgstr "Configure in settings"
+
